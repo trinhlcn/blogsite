@@ -35,6 +35,7 @@
 	   var _portalId = "33167"; // Portal ANTSOMI Shopping 
 	   var _propId = "556301985"; 
 	   var _ATM_TRACKING_ASSOCIATE_UTM = 1 ; // https://trinhlcn.github.io/blogsite/blog-single.html 
+		var _keywords = "Trinh test extra data"; //Trinh test
 	(function() {
 	    var w = window;
 	    if (w.web_event) return;
@@ -44,12 +45,13 @@
 	    a.propId = _propId;
 	    a.track = a;
 	    a.queue = [];
+		a.keywords = _keywords;  //Trinh test
 	    var e = document.createElement("script");
 	    e.type = "text/javascript", e.async = !0, e.src = "//sandbox-st-a.cdp.asia/insight.js";
 	    var t = document.getElementsByTagName("script")[0];
-	    t.parentNode.insertBefore(e, t);
-		var _keywords = "Trinh test extra data";
-		a.keywords = _keywords
+	    t.parentNode.insertBefore(e, t)
+// 		var _keywords = "Trinh test extra data";
+// 		a.keywords = _keywords
 // 		var extraData = {
 // 			keywords: 'Trinh test extra data'
 // 		}
