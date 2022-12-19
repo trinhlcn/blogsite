@@ -48,11 +48,13 @@
 	    e.type = "text/javascript", e.async = !0, e.src = "//sandbox-st-a.cdp.asia/insight.js";
 	    var t = document.getElementsByTagName("script")[0];
 	    t.parentNode.insertBefore(e, t);
-		var extraData = {
-			keywords: 'Trinh test extra data'
-		}
-		web_event.track("pageview", "view", {extra: extraData});
-		console.log("trinh nè")
+		var _keywords: 'Trinh test extra data';
+		a.keywords = _keywords
+// 		var extraData = {
+// 			keywords: 'Trinh test extra data'
+// 		}
+// 		web_event.track("pageview", "view", {extra: extraData});
+// 		console.log("trinh nè")
 	})(); 
 	</script>
 	<!-- End of CDP Web Insight script -->
