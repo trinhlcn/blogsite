@@ -41,23 +41,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <header class="navigation">
 	<!-- CDP Web Insight script -->
 <script type = "text/javascript" >
-   //var _portalId = "33167"; // Portal ANTSOMI Shopping 
-   //var _propId = "556301985"; 
-   //var _ATM_TRACKING_ASSOCIATE_UTM = 1 ; // https://trinhlcn.github.io/blogsite/blog-single.html 
-//(function() {
-    //var w = window;
-   // if (w.web_event) return;
-    //var a = window.web_event = function() {
-    //    a.queue.push(arguments);
-    //}
-   //a.propId = _propId;
-    //a.track = a;
-    //a.queue = [];
-    //var e = document.createElement("script");
-    //e.type = "text/javascript", e.async = !0, e.src = "//sandbox-st-a.cdp.asia/insight.js";
-    //var t = document.getElementsByTagName("script")[0];
-    //t.parentNode.insertBefore(e, t)
-//})(); 
+   var _portalId = "33167"; // Portal ANTSOMI Shopping 
+   var _propId = "556301985"; 
+   var _ATM_TRACKING_ASSOCIATE_UTM = 1 ; // https://trinhlcn.github.io/blogsite/blog-single.html 
+(function() {
+    var w = window;
+    if (w.web_event) return;
+    var a = window.web_event = function() {
+        a.queue.push(arguments);
+    }
+   a.propId = _propId;
+    a.track = a;
+    a.queue = [];
+    var e = document.createElement("script");
+    e.type = "text/javascript", e.async = !0, e.src = "//sandbox-st-a.cdp.asia/insight.js";
+    var t = document.getElementsByTagName("script")[0];
+    t.parentNode.insertBefore(e, t)
+})(); 
 </script> 
 <!-- End of CDP Web Insight script -->
 	<div class="header-top ">
